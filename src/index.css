@@ -12,28 +12,22 @@
 }
 @font-face {
   font-family: raleway-c;
-  src: url('/public/fonts/Raleway-VariableFont.ttf');
+  src: url('/fonts/Raleway-VariableFont.ttf');
 }
 @font-face {
   font-family: outfit-c;
-  src: url('/public/fonts/Outfit-VariableFont.ttf');
+  src: url('/fonts/Outfit-VariableFont.ttf');
 }
 h1,h2,h3,h4,h5,h6{
   font-family: outfit-c;
 }
 
 body{
-  background-image: url('/public/bg.jpg');
+  background-image: url('/bg.jpg');
   background-size: 50px;
   color: #fafafa;
   font-family: raleway-c;
   overflow-x: hidden;
-}
-@media (max-width:1000px) {
-  body{
-    background-image: none;
-    background-color: black;
-  }
 }
 .hero{
   position: absolute;
