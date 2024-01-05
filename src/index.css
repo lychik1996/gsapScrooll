@@ -29,6 +29,12 @@ body{
   font-family: raleway-c;
   overflow-x: hidden;
 }
+@media (max-width:1000px) {
+  body{
+    background-image: none;
+    background-color: black;
+  }
+}
 .hero{
   position: absolute;
   width: calc(var(--index)*36);
